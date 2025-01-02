@@ -15,6 +15,7 @@ struct idt_ptr {
     uint32_t base;
 } __attribute__((packed));
 
+// Define the IDT and IDT pointer
 struct idt_entry idt[256];
 struct idt_ptr idt_ptr;
 
